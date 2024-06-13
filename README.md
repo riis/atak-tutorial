@@ -64,9 +64,9 @@ takReleaseKeyFilePassword=android
 takReleaseKeyAlias=androidreleasekey
 takReleaseKeyPassword=android
 ```
-10. Resync and rebuild, should work
-11. NOTE: Do not upgrade gradle. In “File > Project Structure” on the “Project” tab, make sure the Gradle Plugin Version is "4.2.2" and then Gradle Version is "6.9.1" or other errors will arise
-12. Go to "File > Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JDK" and make sure you are using Java 11, if you don't have it, install it.
+10. NOTE: Do not upgrade gradle. In “File > Project Structure” on the “Project” tab, make sure the Gradle Plugin Version is "4.2.2" and then Gradle Version is "6.9.1" or other errors will arise
+11. Go to "File > Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JDK" and make sure you are using Java 11, if you don't have it, install it.
+12. Resync and rebuild, should work
 13. Open the Run Configurations dropdown menu and select "Edit Configurations".
 14. Set "Launch Options > Launch dropdown" selector to the value "Nothing" and press the Apply button
 15. Set “Name” to “plugin new install”
